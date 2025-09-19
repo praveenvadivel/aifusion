@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "auth-background",
+      "description": "A calming abstract background for the authentication pages.",
+      "imageUrl": "https://picsum.photos/seed/healthmate-auth/1920/1080",
+      "imageHint": "abstract purple"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for the sample user.",
+      "imageUrl": "https://picsum.photos/seed/user1/200/200",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "Avatar for another user.",
+      "imageUrl": "https://picsum.photos/seed/user2/200/200",
+      "imageHint": "man portrait"
+    }
+  ]
 }
