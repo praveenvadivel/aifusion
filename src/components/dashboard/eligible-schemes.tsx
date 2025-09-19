@@ -18,7 +18,12 @@ type EligibleSchemesProps = {
 export async function EligibleSchemes({ user }: EligibleSchemesProps) {
   const input = {
     healthData: {
-      ...user.healthData,
+      bloodGroup: user.healthData.bloodGroup,
+      bloodPressureSystolic: user.healthData.bloodPressure.systolic,
+      bloodPressureDiastolic: user.healthData.bloodPressure.diastolic,
+      sugarLevelFasting: user.healthData.sugarLevel.fasting,
+      sugarLevelPostPrandial: user.healthData.sugarLevel.postPrandial,
+      healthIssues: user.healthData.healthIssues,
       income: 50000, // Assuming a mock income
       age: new Date().getFullYear() - new Date(user.dob).getFullYear(),
     },
